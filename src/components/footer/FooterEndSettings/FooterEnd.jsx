@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function FooterEnd() {
@@ -56,13 +57,13 @@ export default function FooterEnd() {
                 </div>
                 <div className="d-flex flex-wrap ps-5 gap-3">
                   <div>
-                    <a href="/" className='text-decoration-none text-dark fs-6'>Privacy Center</a>
+                    <Link href="/" className='text-decoration-none text-dark fs-6'>Privacy Center</Link>
                   </div>
                   <div>
-                    <a href="/" className='text-decoration-none text-dark fs-6'>Privacy Policy</a>
+                    <Link href="/" className='text-decoration-none text-dark fs-6'>Privacy Policy</Link>
                   </div>
                   <div>
-                    <a href="/" className='text-decoration-none text-dark fs-6'>Terms of Use</a>
+                    <Link href="/" className='text-decoration-none text-dark fs-6'>Terms of Use</Link>
                   </div>
                 </div>
               </div>

@@ -59,7 +59,7 @@ function Page() {
           height: "100%",
 
           backgroundRepeat: "no-repeat",
-
+marginTop:"26px",
           paddingTop: "1rem",
         }}
       >
