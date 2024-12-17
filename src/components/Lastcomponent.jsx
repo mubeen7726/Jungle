@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import Card from "./card";
+import Card from "./Card";
 
 function Lastcomponent() {
   const cart = [
