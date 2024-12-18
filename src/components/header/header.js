@@ -1,5 +1,4 @@
-// import "bootstrap/dist/js/bootstrap.js";
-
+import "bootstrap/dist/js/bootstrap.bundle";
 import React from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
@@ -20,6 +19,7 @@ export default function Header() {
           className="navbar navbar-expand-lg bg-body-tertiary"
           style={{ maxWidth: "100%" }}
         >
+          
           <div className="container-fluid d-flex justify-content-between">
             <Link className="navbar-brand" href={"./"}>
               <img

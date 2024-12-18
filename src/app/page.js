@@ -47,9 +47,10 @@ function Page() {
 
   return (
     <>
+    {/* <div className="container  d-flex flex-column "> */}
     <Header/>
-      <div
-        className="container-fluid mh-100 "
+      <div id="text"
+        className="container-fluid mh-100  "
         style={{
           backgroundImage:
             " url('/Orange-Angle.png'), url('/js_gradient-background-creamsicle-to-purple.png')",
@@ -63,7 +64,8 @@ marginTop:"26px",
           paddingTop: "1rem",
         }}
       >
-        <div className="row d-block   text-center text-md-start d-md-flex">
+       
+        <div className="row d-block     text-center text-md-start d-md-flex">
           <div
             className="col-12 col-md-6 order-1"
             style={{ paddingLeft: "3rem" }}
@@ -85,6 +87,7 @@ marginTop:"26px",
               insights for Amazon sellers and brand owners.
             </p>
           </div>
+         
           <div
             className="col-12 col-md-6 px-12rem order-2"
             style={{ paddingTop: "4rem" }}
@@ -98,6 +101,7 @@ marginTop:"26px",
               poster="/vodeoth.png"
             ></video>
           </div>
+         
           <div className="col order-3 " style={{ marginBottom: "" }}>
             <button
               className="col-11 col-md-2 py-2 mx-4 border rounded-1 "
@@ -185,7 +189,7 @@ marginTop:"26px",
           </div>
         </div>
         {/* cards start */}
-        <div className="row  d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 ">
+        <div className="row   d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 ">
           <div
             className="col-10 col-md-3 border text-center bg-light rounded-4 shadow py-3 "
             style={{}}
@@ -741,6 +745,7 @@ marginTop:"26px",
 
       <LastContainer />
       <Footer />
+      {/* </div> */}
     </>
   );
 }
