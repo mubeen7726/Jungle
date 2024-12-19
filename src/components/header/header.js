@@ -1,4 +1,4 @@
-// import "bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/js/bootstrap.bundle";
 import React from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
