@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+
 import "./Faqs.css";
 import Faqs from "./Faqsone";
 import Faqstwo from "./Faqstwo";
